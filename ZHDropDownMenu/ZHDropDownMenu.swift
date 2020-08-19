@@ -79,7 +79,7 @@ public protocol ZHDropDownMenuDelegate: NSObjectProtocol {
     
     @IBInspectable public var buttonImage: UIImage? { //下拉按钮的图片
         didSet {
-            pullDownButton.setImage(buttonImage, for: UIControlState())
+            pullDownButton.setImage(buttonImage, for: UIControl.State())
         }
     }
     
